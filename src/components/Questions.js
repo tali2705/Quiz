@@ -26,9 +26,15 @@ const Questions = () => {
                 return (
                     <div key={question.id}>
                         <h3>Pitanje {question.id}: {question.question}</h3>
-                        <div>a. {question.A}</div>
-                        <div>b. {question.B}</div>
-                        <div>c. {question.C}</div>
+                        <input type="radio" name="answer" id="A" value={question.A} />
+                        <label for="A">{question.A}</label>
+                        <br />
+                        <input type="radio" name="answer" id="B" value={question.B} />
+                        <label for="B">{question.B}</label>
+                        <br />
+                        <input type="radio" name="answer" id="C" value={question.C} />
+                        <label for="C">{question.C}</label>
+
                         <hr />
                     </div>
                 );
