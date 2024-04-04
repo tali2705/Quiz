@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "question": "Sta treba uraditi kada vidite crveno svetlo na semaforu?",
+        "A": "Stati",
+        "B": "Ubrzati",
+        "C": "Prilagoditi brzinu dok ne predjete",
+        "answer": "A"
+    },
+    {
+        "id": 2,
+        "question": "Koji je glavni grad Kanade?",
+        "A": "Vancouver",
+        "B": "Ottawa",
+        "C": "Toronto",
+        "answer": "B"
+    },
+    {
+        "id": 3,
+        "question": "Koje meso sadrzi najvise proteina?",
+        "A": "Piletina",
+        "B": "Svinjetina",
+        "C": "Junetina",
+        "answer": "A"
+    },
+    {
+        "id": 4,
+        "question": "Kako se zove najpoznatije Japansko alkoholno pice?",
+        "A": "Makinawa",
+        "B": "Kimchi",
+        "C": "Sake",
+        "answer": "C"
+    },
+    {
+        "id": 5,
+        "question": "Sa koliko godina je kraljica Elizabeta II preminula?",
+        "A": "99",
+        "B": "92",
+        "C": "96",
+        "answer": "C"
+    },
+    {
+        "id": 6,
+        "question": "Kako se zove boginja ljubavi u rimskoj mitologiji?",
+        "A": "Venera",
+        "B": "Afrodita",
+        "C": "Vesta",
+        "answer": "A"
+    },
+    {
+        "id": 7,
+        "question": "Kako se zove najbolji prijatelj pripovedača u seriji How I Met Your Mother?",
+        "A": "Barni",
+        "B": "Marsal",
+        "C": "Ted",
+        "answer": "B"
+    },
+    {
+        "id": 8,
+        "question": "Šta se od navedenog nalazi na UNESCO-voj listi?",
+        "A": "Sveta tajna pričešća",
+        "B": "Slava",
+        "C": "Krštenje",
+        "answer": "B"
+    },
+    {
+        "id": 9,
+        "question": " Koju od navedenih namirnica sme da konzumira osoba alergična na gluten?",
+        "A": "Ovas",
+        "B": "Pšenicu",
+        "C": "Pirinač",
+        "answer": "C"
+    },
+    {
+        "id": 10,
+        "question": "Kako se zove preteran strah od zmija?",
+        "A": "Ofidiofobia",
+        "B": "Zoofobija",
+        "C": "Helmintofobia",
+        "answer": "A"
+    },
+    {
+        "id": 11,
+        "question": "Ko se, prema Danteu, nalazi u devetom krugu pakla?",
+        "A": "Varalice",
+        "B": "Lenji ljudi",
+        "C": " Izdajnici",
+        "answer": "C"
+    },
+    {
+        "id": 12,
+        "question": "Na spomeniku Knezu Mihailu na Trgu republike, konj koga Mihailo jaše podigao je koju nogu?",
+        "A": "Prednju desnu",
+        "B": "Prednju levu",
+        "C": "Zadnju desnu",
+        "answer": "B"
+    },
+    {
+        "id": 13,
+        "question": "Sa koliko godina je preminuo čuveni kompozitor Volfgang Amadeus Mocart?",
+        "A": 38,
+        "B": 35,
+        "C": 33,
+        "answer": "B"
+    },
+    {
+        "id": 14,
+        "question": "Kineski kalendar je?",
+        "A": "Lunisolarni",
+        "B": "Insolarni",
+        "C": "Lunarni",
+        "answer": "A"
+    },
+    {
+        "id": 15,
+        "question": "Geometrija hiperboličkih prostora poznata je i kao geometrija:",
+        "A": "Dekarta",
+        "B": "Aristotela",
+        "C": "Lobačevskog",
+        "answer": "A"
+    }
+]
