@@ -43,11 +43,11 @@
         "id": 5,
         "question": "Sa koliko godina je kraljica Elizabeta II preminula?",
         "answer": [
-            99,
-            92,
-            96
+            "99",
+            "92",
+            "96"
         ],
-        "correctAnswer": 96
+        "correctAnswer": "96"
     },
     {
         "id": 6,
@@ -123,11 +123,11 @@
         "id": 13,
         "question": "Sa koliko godina je preminuo čuveni kompozitor Volfgang Amadeus Mocart?",
         "answer": [
-            38,
-            35,
-            33
+            "38",
+            "35",
+            "33"
         ],
-        "correctAnswer": 35
+        "correctAnswer": "35"
     },
     {
         "id": 14,
