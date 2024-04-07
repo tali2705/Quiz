@@ -30,25 +30,30 @@ const Questions = () => {
     }
 
     const handleShowResult = (result) => {
-        console.log(result);
+        // let resultType = typeof (result);
+        // console.log("Result type: ", resultType);
+        console.log(`Vas rezultat je: ${result}/${quiz.length}`);
 
     }
-
-    if (questionIndex === 15) {
+    if (questionIndex === quiz.length) {
         return <input type='button' value='Vidi rezultat' onClick={handleShowResult} />;
     }
 
-
-    const handleUpdateQnA = () => {
+    const handleUpdateQnA = (selectedAnswer) => {
         setQuestionIndex(questionIndex + 1);
-        if (quiz[questionIndex].correctAnswer === selectedAnswer) {
+        const correctAnswer = quiz[questionIndex].correctAnswer;
+        if (correctAnswer === selectedAnswer) {
             setSelectedAnswer(true);
             setResult(result + 1);
-            console.log("right");
+            console.log("correctAnswer: ", quiz[questionIndex].correctAnswer);
+            console.log("selectedAnswer: ", selectedAnswer);
+            console.log("Answer: Right");
         }
         else {
             setSelectedAnswer(false);
-            console.log("wrong");
+            console.log("correctAnswer: ", quiz[questionIndex].correctAnswer);
+            console.log("selectedAnswer: ", selectedAnswer);
+            console.log("Answer: Wrong");
         }
     };
 
@@ -68,10 +73,10 @@ const Questions = () => {
                     <h2>Question number {quiz[questionIndex].id}: {quiz[questionIndex].question}</h2>
                     {quiz[questionIndex].answer.map((selectedAnswer, k) => {
                         return (
-                            <div key={k}>
+                            <ul key={k}>
                                 {/* <input type="button" value={selectedAnswer} onClick={handleUpdateQnA} /> */}
-                                <button onClick={() => handleUpdateQnA(selectedAnswer)}>{selectedAnswer}</button>
-                            </div>
+                                <li onClick={() => handleUpdateQnA(selectedAnswer)}>{selectedAnswer}</li>
+                            </ul>
                         );
                     })}
                 </div>
