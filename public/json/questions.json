@@ -1,13 +1,15 @@
 [
     {
         "id": 1,
-        "question": "Sta treba uraditi kada vidite crveno svetlo na semaforu?",
+        "question": "Kako se zove pas porodice Simpson iz animirane komedije Simpsonovi?",
         "answer": [
-            "Stati",
-            "Ubrzati",
-            "Prilagoditi brzinu dok ne predjete"
+            "Bart",
+            "Skubi",
+            "Brajan Griffin",
+            "Benito Musolini",
+            "Deda mrazov mali pomoćnik"
         ],
-        "correctAnswer": "Stati"
+        "correctAnswer": "Deda mrazov mali pomoćnik"
     },
     {
         "id": 2,
@@ -21,23 +23,26 @@
     },
     {
         "id": 3,
-        "question": "Koje meso sadrzi najvise proteina?",
+        "question": "Kako se zove prvi operativni sistem?",
         "answer": [
-            "Piletina",
-            "Svinjetina",
-            "Junetina"
+            "GM-NAA I/O",
+            "WINDOWS 95",
+            "WINDOWS 1.01",
+            "EPOC",
+            "TSS/360"
         ],
-        "correctAnswer": "Piletina"
+        "correctAnswer": "GM-NAA I/O"
     },
     {
         "id": 4,
-        "question": "Kako se zove najpoznatije Japansko alkoholno pice?",
+        "question": "Koliko je Liga šampiona osvojio Vaterpolo klub Partizan?",
         "answer": [
-            "Makinawa",
-            "Kimchi",
-            "Sake"
+            "5",
+            "6",
+            "7",
+            "8"
         ],
-        "correctAnswer": "Sake"
+        "correctAnswer": "7"
     },
     {
         "id": 5,
@@ -141,12 +146,64 @@
     },
     {
         "id": 15,
-        "question": "Geometrija hiperboličkih prostora poznata je i kao geometrija:",
+        "question": "Koja marka automobila za svoj logo ima vikinški brod?",
         "answer": [
-            "Dekarta",
-            "Aristotela",
-            "Lobačevskog"
+            "Opel",
+            "Toyota",
+            "ZAZ",
+            "Lada"
         ],
-        "correctAnswer": "Lobačevskog"
+        "correctAnswer": "Lada"
+    },
+    {
+        "id": 16,
+        "question": "Koliko je vremenskih zona u Rusiji?",
+        "answer": [
+            "12",
+            "11",
+            "10"
+        ],
+        "correctAnswer": "11"
+    },
+    {
+        "id": 17,
+        "question": "Street art umetnik Benski se vezuje za koji britanski grad?",
+        "answer": [
+            "Liverpul",
+            "Bristol",
+            "Oksford"
+        ],
+        "correctAnswer": "Bristol"
+    },
+    {
+        "id": 18,
+        "question": "Ko je režirao 'Lepa sela, lepo gore'?",
+        "answer": [
+            "Goran Marković",
+            "Srđan Dragojević",
+            "Slobodan Šijan"
+        ],
+        "correctAnswer": "Srđan Dragojević"
+    },
+    {
+        "id": 19,
+        "question": "Koji je bio službeni cvet nekadašnje Jugoslavije?",
+        "answer": [
+            "Đurđevak",
+            "Karanfil",
+            "Ljiljan"
+        ],
+        "correctAnswer": "Đurđevak"
+    },
+    {
+        "id": 20,
+        "question": "Šta se desilo 20. jula 1969. godine?",
+        "answer": [
+            "Apollo 11 je sleteo na mesec",
+            "Ubojen je Džon F. Kenedi",
+            "Merlin Monro je pronađena mrtva",
+            "U Beogradu je održana prva konferencija pokreta nesvrstanih"
+        ],
+        "correctAnswer": "Apollo 11 je sleteo na mesec"
     }
 ]
