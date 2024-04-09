@@ -1,6 +1,4 @@
 // import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
-// import About from "./components/About";
-import ExampleComponent from "./components/ExampleComponent";
 import Questions from "./components/Questions";
 
 
@@ -24,7 +22,6 @@ function App() {
       {/* <div>This is quiz with 15 questions.</div> */}
       <Questions />
 
-      {/* <ExampleComponent /> */}
     </>
   );
 }

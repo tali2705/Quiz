@@ -51,21 +51,17 @@ const Questions = () => {
         if (correctAnswer === selectedAnswer) {
             setSelectedAnswer(true);
             setResult(result + 1);
-            console.log("correctAnswer: ", quiz[questionIndex].correctAnswer);
-            console.log("selectedAnswer: ", selectedAnswer);
-            console.log("Answer: Right");
+            // console.log("correctAnswer: ", quiz[questionIndex].correctAnswer);
+            // console.log("selectedAnswer: ", selectedAnswer);
+            // console.log("Answer: Right");
         }
         else {
             setSelectedAnswer(false);
-            console.log("correctAnswer: ", quiz[questionIndex].correctAnswer);
-            console.log("selectedAnswer: ", selectedAnswer);
-            console.log("Answer: Wrong");
+            // console.log("correctAnswer: ", quiz[questionIndex].correctAnswer);
+            // console.log("selectedAnswer: ", selectedAnswer);
+            // console.log("Answer: Wrong");
         }
     };
-
-
-    //Method for showing result
-
 
     if (loading) {
         return <Spinner />;
