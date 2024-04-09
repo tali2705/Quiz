@@ -3,6 +3,7 @@ import axios from "axios";
 import Spinner from "./Spinner";
 
 
+
 const Questions = () => {
     //STATES
     const [questionIndex, setQuestionIndex] = useState(0);//number
@@ -51,55 +52,73 @@ const Questions = () => {
         if (correctAnswer === selectedAnswer) {
             setSelectedAnswer(true);
             setResult(result + 1);
-            // console.log("correctAnswer: ", quiz[questionIndex].correctAnswer);
-            // console.log("selectedAnswer: ", selectedAnswer);
-            // console.log("Answer: Right");
+            console.log("correctAnswer: ", quiz[questionIndex].correctAnswer);
+            console.log("selectedAnswer: ", selectedAnswer);
+            console.log("Answer: Right");
         }
         else {
             setSelectedAnswer(false);
-            // console.log("correctAnswer: ", quiz[questionIndex].correctAnswer);
-            // console.log("selectedAnswer: ", selectedAnswer);
-            // console.log("Answer: Wrong");
+            console.log("correctAnswer: ", quiz[questionIndex].correctAnswer);
+            console.log("selectedAnswer: ", selectedAnswer);
+            console.log("Answer: Wrong");
         }
     };
+    const handleReset = () => {
+        window.location.reload();
+    }
 
     if (loading) {
         return <Spinner />;
     }
+
     // console.log("Index pitanja: ", questionIndex);
     // console.log("Duzina niza: ", quiz.length);
 
 
     //RENDERING UI WITH IF STATEMENT, IF SHOW RESULT RETURNS TRUE(IF ALL THE QUESTIONS ARE ANSWERED SHOWRESULT IS SET TO TRUE)
     if (showResult) {
-        return (<>
-            <h2>Rezultat: {result}/{quiz.length}</h2>
+        return (
+            <div className="quiz-container">
+                <div className="title">
+                    <h1>Quiz</h1>
+                </div>
+                <div className="question-container">
+                    Došli ste do kraja kviza! Vaš rezultat je:
+                </div>
+                <div className="result">{result}/{quiz.length}
+                </div>
 
-        </>);
+                <button
+                    className="btn"
+                    onClick={handleReset}>
+                    Pokušaj opet
+                </button>
+
+            </div>
+        );
     }
     //IF NOT, THEN SHOW QUIZ
     else {
         return (
-            <>
-                <div>
+            <div className="quiz-container">
+                <div className="title">
                     <h1>Quiz</h1>
-                    <hr />
-                    <div>
-                        <h2>Pitanje broj {quiz[questionIndex].id}: {quiz[questionIndex].question}</h2>
-                        {
-                            quiz[questionIndex].answer.map((selectedAnswer, k) => {
-                                return (
-                                    <ul key={k}>
-                                        <li onClick={() => handleUpdateQnA(selectedAnswer)}>{selectedAnswer}</li>
-                                    </ul>
-                                );
-                            })
-                        }
-                    </div>
-
                 </div>
-
-            </>
+                <div className="question-container">
+                    <h2>Pitanje broj {quiz[questionIndex].id}: {quiz[questionIndex].question}</h2>
+                </div>
+                <div>
+                    {
+                        quiz[questionIndex].answer.map((selectedAnswer, k) => {
+                            return (
+                                <ul key={k}>
+                                    <li onClick={() => handleUpdateQnA(selectedAnswer)}>{selectedAnswer}</li>
+                                </ul>
+                            );
+                        })
+                    }
+                </div>
+            </div>
         );
     }
 

@@ -1,6 +1,6 @@
 // import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import Questions from "./components/Questions";
-
+import "./scss/style.scss";
 
 function App() {
 

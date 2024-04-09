@@ -4,8 +4,7 @@
         "question": "Kako se zove pas porodice Simpson iz animirane komedije Simpsonovi?",
         "answer": [
             "Bart",
-            "Skubi",
-            "Brajan Griffin",
+            "Brajan ",
             "Benito Musolini",
             "Deda mrazov mali pomoćnik"
         ],
@@ -69,10 +68,10 @@
         "question": "Kako se zove najbolji prijatelj pripovedača u seriji How I Met Your Mother?",
         "answer": [
             "Barni",
-            "Marsal",
+            "Maršal",
             "Ted"
         ],
-        "correctAnswer": "Marsal"
+        "correctAnswer": "Maršal"
     },
     {
         "id": 8,
